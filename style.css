@@ -1,0 +1,75 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #6a11cb, #2575fc);
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .link-container {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .link-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+
+        .instagram {
+            background: linear-gradient(45deg, #d83535, #f7ab48, #ffd84d, #8a3ab9, #4c68d7);
+
+        }
+
+        .twitter {
+            background: #000000;
+        }
+
+
+        .link-container i {
+            font-size: 24px;
+        }
+
+        .contact {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+
+        .contact a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
